@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+    font-size: 10px;
+}
+
+
+h1 {
+    font-size: 6.5em;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 4.1em;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    padding-bottom: 2.8rem;
+}
+
+h3 {
+    font-size: 2.6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 2.6em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+}
+
+h6 {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-bottom: 2.8rem;
+    line-height: 1.4;
+}
+
+a {
+    font-size: 1.6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+}
+
+.hero {
+    height: 100vh;
+    background-image:url(../assets/header-image-dark.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+#header {
+    padding-top: 3.6em;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+#header a {
+    padding-left: 2.8rem;
+    color: #FDFDF9;
+}
+
+.hero-header {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FDFDF9;
+}
+
+.hero-header h1 {
+    padding-bottom: 28px;
+}
+
+
+.content-section {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.cafe-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro-text {
+    padding-right: 12%;
+}
+
+#intro-images {
+   display: flex;
+}
+
+#intro-images img {
+    padding-left: 1rem;
+}
+
+.homepage-menu {
+  background-image:url(../assets/menu-image-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.homepage-menu h2 {
+    color: #FDFDF9;
+}
+
+.homepage-menu p {
+    padding-right: 62%;
+    color: #FDFDF9;
+}
